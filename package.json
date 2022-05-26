@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-anonymous-functions-in-use-effect",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "description": "Provide a descriptive function name as an useEffect param.",
   "keywords": [
     "eslint",
