@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-anonymous-functions",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Restricts usage of anonymous functions in some cases.",
   "keywords": [
     "eslint",
@@ -28,5 +28,9 @@
   "peerDependencies": {
     "eslint": ">=6"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preacherxp/eslint-plugin-no-anonymous-functions"
+  }
 }
