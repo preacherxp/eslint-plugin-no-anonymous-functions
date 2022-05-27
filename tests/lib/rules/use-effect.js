@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/no-anonymous-functions-in-use-effect"),
+const rule = require("../../../lib/rules/use-effect"),
   RuleTester = require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ const rule = require("../../../lib/rules/no-anonymous-functions-in-use-effect"),
 //------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester({ parserOptions: { ecmaVersion: 6 } });
-ruleTester.run("no-anonymous-functions-in-use-effect", rule, {
+ruleTester.run("no-anonymous-functions/use-effect", rule, {
   valid: [
     {
       code: "useEffect(function name(){})",

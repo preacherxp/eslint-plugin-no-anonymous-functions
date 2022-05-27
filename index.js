@@ -1,14 +1,14 @@
 module.exports = {
   meta: {
-    type: "suggestion", // `problem`, `suggestion`, or `layout`
+    type: "suggestion",
     docs: {
       description: "Provide a descriptive function name as an useEffect param.",
       category: "Fill me in",
       recommended: false,
-      url: null, // URL to the documentation page for this rule
+      url: null,
     },
-    fixable: "code", // Or `code` or `whitespace`
-    schema: [], // Add a schema if the rule has options
+    fixable: "code",
+    schema: [],
   },
   create: function (context) {
     return {
