@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-anonymous-functions",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Restricts usage of anonymous functions in some cases.",
   "keywords": [
     "eslint",
