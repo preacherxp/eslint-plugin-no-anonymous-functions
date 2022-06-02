@@ -21,6 +21,9 @@ ruleTester.run("no-anonymous-functions/use-effect", rule, {
     {
       code: "useEffect(function name(){})",
     },
+    {
+      code: "setValue(prev => !prev)",
+    },
   ],
 
   invalid: [
