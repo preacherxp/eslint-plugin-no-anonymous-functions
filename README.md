@@ -3,7 +3,13 @@
 There can be in fact multiple complex useEffect functions in a single React component and this rule aims to enforce usage of named functions as a first param.
 
 ## Usage
-In your eslint config add the plugin and the rule.
+Install the plugin into dev dependencies with package manager of your choice and then in your eslint config add the plugin and the rule.
+
+```
+npm i -D eslint-plugin-no-anonymous-functions
+yarn add -D eslint-plugin-no-anonymous-functions
+pnpm i -D eslint-plugin-no-anonymous-functions
+```
 
 ```json
 {
